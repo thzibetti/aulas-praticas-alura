@@ -1,5 +1,6 @@
 function sortear() {
     let quantidadeNumeros = parseInt (document.querySelector('#quantidade').value)
+    //let quantidadeNumeros = document.getElementById('quantidade').value;
     let numeroInicialDo = parseInt(document.querySelector('#de').value);
     let numeroFinalAte = parseInt(document.querySelector('#ate').value);
     console.log (numeroInicialDo);
